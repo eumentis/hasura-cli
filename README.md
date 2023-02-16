@@ -42,23 +42,23 @@ Currently there are 3 npm tags (npm tags are different from versions), `latest`,
 Of course, you can install it globally,
 
 ```bash
-npm install --global hasura-cli[@tag|@version]
+npm install --global @eumentis/hasura-cli[@tag|@version]
 ```
 
 or in a project.
 
 ```bash
-# latest version from latest tag (Same as hasura-cli@latest)
-npm install --save-dev hasura-cli
+# latest version from latest tag (Same as @eumentis/hasura-cli@latest)
+npm install --save-dev @eumentis/hasura-cli
 
 # specific version
-npm install --save-dev hasura-cli@2.0.0
+npm install --save-dev @eumentis/hasura-cli@2.0.0
 
 # latest version from beta tag
-npm install --save-dev hasura-cli@beta
+npm install --save-dev @eumentis/hasura-cli@beta
 
 # latest version from alpha tag
-npm install --save-dev hasura-cli@alpha
+npm install --save-dev @eumentis/hasura-cli@alpha
 ```
 
 Then you will be able to run hasura command.
