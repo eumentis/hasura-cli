@@ -1,5 +1,13 @@
 # ![hasura-cli](./docs/assets/hasura-cli.svg)
 
+## Publish
+
+Update the `version` in `package.json` and
+
+```shell
+npm publish --access public
+```
+
 An npm package that automatically installs and wraps **Hasura CLI** binary in isolated manner
 
 [![npm version](https://img.shields.io/npm/v/hasura-cli?style=flat-square&labelColor=black&label=version)](https://www.npmjs.com/package/hasura-cli)
