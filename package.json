@@ -1,6 +1,6 @@
 {
   "name": "@eumentis/hasura-cli",
-  "version": "2.19.0",
+  "version": "2.22.1",
   "license": "MIT",
   "engines": {
     "node": ">=8"
