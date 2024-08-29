@@ -1,9 +1,12 @@
 {
   "name": "@eumentis/hasura-cli",
-  "version": "2.41.0",
+  "version": "2.43.0",
   "license": "MIT",
   "engines": {
     "node": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "postinstall": "node dist/index.js",
